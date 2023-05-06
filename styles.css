@@ -1,0 +1,124 @@
+body {
+  box-sizing: border-box;
+  background-color: #FFFFFF;
+  font-family: 'Hanken Grotesk', sans-serif;
+}
+h4 {
+  font-size: 15px;
+  color: aliceblue;
+}
+.rounder {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4430e4;
+  color: #fff;
+  width: 80px;
+  height: 100px;
+  border-radius: 100%;
+  text-align: center;
+}
+.rounder h1 {
+  font-size: 30px;
+}
+.rounder p {
+  font-weight: 100 !important;
+}
+.main-container {
+  box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 16px;
+  max-width: 400px;
+  height: 300px;
+  display: flex;
+  flex-direction: row;
+  margin: 250px auto;
+}
+.left-panel {
+  width: 100%;
+  border-radius: 16px;
+  background-color: #603ffc;
+  text-align: center;
+  color: #fff;
+}
+.left-panel h3 {
+  font-size: 20px;
+}
+.left-panel p {
+  font-weight: 300;
+}
+.left-panel .great p{
+  margin-bottom: 10px;
+}
+.right-panel {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  text-align: center;
+  box-shadow: 2px black;
+}
+.top-panel h2 {
+  font-size: 14px;
+  font-weight: 600;
+  text-align: left;
+  margin-left: 25px;
+}
+.reaction,
+.visual,
+.verbal,
+.memory {
+  background-color: gold;
+  border-radius: 6px;
+  width: 150px;
+  margin: 10px auto;
+  padding: 5px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.left{
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+}
+.left img {
+    width: 14px;
+    height: 14px;
+    margin-right: 10px;
+  }
+.reaction,
+.visual {
+  background-color: #FFF7F5;
+}
+.memory,
+.verbal {
+  background-color: #F2FBFA;
+}
+.reaction .left{
+    color: #CA9799;
+    font-weight: 900;
+}
+.memory .left{
+    color: #E6D69C;
+    font-weight: 900;
+}
+.visual .left{
+  color: #293190;
+  font-weight: 900;
+}
+.verbal .left{
+    color: #81C4BA;
+    font-weight: 900;
+}
+.top-panel {
+}
+button {
+  background-color: #303c58;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  width: 150px;
+  border-radius: 20px;
+  margin: 10px auto;
+  cursor: pointer;
+  font-size: 13px;
+}

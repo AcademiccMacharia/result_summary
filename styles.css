@@ -1,7 +1,6 @@
 body {
   box-sizing: border-box;
   background-color: #FFFFFF;
-  font-family: 'Hanken Grotesk', sans-serif;
 }
 h4 {
   font-size: 15px;
@@ -22,6 +21,9 @@ h4 {
 }
 .rounder p {
   font-weight: 100 !important;
+}
+.great p{
+  font-size: 11px;
 }
 .main-container {
   box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
@@ -70,7 +72,7 @@ h4 {
   border-radius: 6px;
   width: 150px;
   margin: 10px auto;
-  padding: 5px;
+  padding: 9px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -108,8 +110,6 @@ h4 {
 .verbal .left{
     color: #81C4BA;
     font-weight: 900;
-}
-.top-panel {
 }
 button {
   background-color: #303c58;
